@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command S4Plugin</Text>
+    <Description>Some description for S4Plugin</Description>
+    <Assembly>S4Plugin.dll</Assembly>
+    <FullClassName>S4Plugin.Command</FullClassName>
+    <ClientId>707cb3a7-72b4-4be4-8185-7ff346ba6566</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application S4Plugin</Name>
+    <Assembly>S4Plugin.dll</Assembly>
+    <FullClassName>S4Plugin.App</FullClassName>
+    <ClientId>e5bee2ea-101f-46de-ba4c-15e43a8748ce</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
